@@ -1,0 +1,111 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.input-container {
+  flex: 0 1 auto;
+  padding: 10px;
+  background: black;
+}
+#gravityInput {
+  margin-top: 12px;
+  color: white;
+  background-color: black;
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: "Radio Canada Big", sans-serif;
+}
+#canvas {
+  flex: 1 1 auto;
+  display: block;
+  background-color: black;
+}
+#setGravityButton {
+  margin-top: 12px;
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Radio Canada Big", sans-serif;
+  border: 2px solid #0050ff;
+}
+.restartBtn {
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Radio Canada Big", sans-serif;
+}
+.modalEl {
+  position: absolute;
+  background-color: black;
+  border: 5px solid white;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  padding: 16px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+}
+.startBtn {
+  margin-top: 12px;
+  background-color: #0050ff;
+  border: 1px solid rgba(163, 207, 205, 0.5);
+  color: white;
+  padding: 10px 16px;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Radio Canada Big", sans-serif;
+}
+.modalContainer {
+  margin: 87px;
+}
+.gameName {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-family: "Radio Canada Big", sans-serif;
+}
+.menuButtons {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+.clickTextContainer {
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  max-width: 100%;
+  text-align: center;
+  max-width: 600px;
+  height: auto;
+}
+.clickText {
+  font-family: "Radio Canada Big", sans-serif;
+  color: white;
+}

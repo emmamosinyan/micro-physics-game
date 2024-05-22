@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menuButtons">
+        <div class="input-container">
+          <input
+            placeholder="Enter gravity"
+            id="gravityInput"
+            type="number"
+            value="9.8"
+          />
+          <button id="setGravityButton">Set Gravity</button>
+        </div>
+        <button class="restartBtn">Restart</button>
+      </div>
+      <div class="clickTextContainer">
+        <h1 class="clickText">Click on Screen to Play!</h1>
+      </div>
+
+      <div class="modalEl">
+        <div class="modalContainer">
+          <h1 class="gameName">Physics Simulation Game</h1>
+          <button class="startBtn">Start Game</button>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="./ts-built/main.js"></script>
+  </body>
+</html>
