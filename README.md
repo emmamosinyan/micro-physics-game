@@ -11,8 +11,7 @@ This is a web application for micro physics simulation. The user can throw balls
 
 You can follow the steps below to run the app.
 
-- Download the raw file from this GitHub repository.
-- Extract the files
-- Go to 'micro-physics-game-main' folder
+- Clone the repository
+- Go to 'micro-physics-game' folder
 - Open the HTML file named 'game-canvas'
 
